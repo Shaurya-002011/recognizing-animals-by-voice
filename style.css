@@ -1,4 +1,35 @@
-.body {
-    font-family: 'Macondo', cursive;
-font-family: 'Macondo Swash Caps', cursive;
+body
+{
+    font-family: 'Germania One', cursive;
+    background:linear-gradient(#34c6eb, #343aeb, #ba34eb, #80093c);
+}
+.header_div p{
+    color:chartreuse;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header_div
+{
+    color: red;
+}
+
+.main_div button{
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
 }
